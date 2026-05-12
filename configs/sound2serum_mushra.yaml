@@ -3,7 +3,7 @@
 # Random trial order + random stimulus order per trial
 # Anonymous responses with age/gender collection at end
 
-testname: Sound2Serum - Neural Sound Synthesis
+testname: Serum 2 - Sound Matching
 testId: sound2serum_mushra
 bufferSize: 2048
 stopOnErrors: false
@@ -16,7 +16,7 @@ pages:
   - type: generic
     id: welcome
     name: Welcome
-    content: '<div style="max-width: 700px; margin: 0 auto; line-height: 1.6;"><p><strong>Welcome, and thank you for taking part in this listening test.</strong></p><p>This test is part of a Master''s thesis at Aalborg University on neural sound matching for the Serum 2 wavetable synthesizer. Your ratings will help evaluate how closely automatically generated synthesizer presets recreate a target sound.</p><h3>What you will do</h3><p>You will hear 8 trials. In each trial you are given a reference sound at the top of the page, and 4 different versions of that sound below. Your task is to rate how similar each version sounds to the reference, on a scale from 0 (very different) to 100 (identical).</p><p>You can switch freely between the versions and adjust your ratings as many times as you like before moving on. There is no time limit, and you can take short breaks between trials. The whole test takes approximately 20 to 30 minutes.</p><h3>Before you start</h3><p>Please use headphones in a quiet environment. The test relies on clear stereo playback, and laptop speakers or phone speakers will not give reliable results.</p><p>At the end of the test, you will be asked to indicate your age range. No other personal information (name, email, etc.) is collected, and your responses are stored anonymously under a randomly generated session ID. Participation is for adults aged 18 and over.</p><p>By proceeding past this page you consent to the anonymous use of your ratings for academic research purposes, in accordance with the EU General Data Protection Regulation.</p><p><strong>When you are ready, click "Continue" to begin.</strong></p></div>'
+    content: '<div style="max-width: 700px; margin: 0 auto; line-height: 1.6;"><p><strong>Welcome, and thank you for taking part in this listening test.</strong></p><p>This test is part of a Master''s thesis at Aalborg University on sound matching for the Serum 2 wavetable synthesizer. Your ratings will help evaluate how closely automatically generated synthesizer presets recreate a target sound.</p><h3>What you will do</h3><p>You will hear 8 trials. In each trial you can access the reference sound via a dedicated button, and then rate the 4 versions of that sound below. Your task is to rate how similar each version sounds to the reference, on a scale from 0 (very different) to 100 (identical).</p><p>You can switch freely between the versions and adjust your ratings as many times as you like before moving on. There is no time limit, and you can take short breaks between trials. The whole test takes approximately 10 to 20 minutes.</p><h3>Before you start</h3><p>Please use headphones in a quiet environment. The test relies on clear stereo playback, and laptop speakers or phone speakers will not give reliable results.</p><p>At the end of the test, you will be asked to indicate your age range. No other personal information (name, email, etc.) is collected, and your responses are stored anonymously under a randomly generated session ID. Participation is for adults aged 18 and over.</p><p>By proceeding past this page you consent to the anonymous use of your ratings for academic research purposes, in accordance with the EU General Data Protection Regulation.</p><p><strong>When you are ready, click "Continue" to begin.</strong></p></div>'
 
   # Randomized trials: 8 total
   # 2 per category (pluck, bass, pad, lead) × (rich, simple)
@@ -33,6 +33,7 @@ pages:
     createAnchor35: false
     createAnchor70: false
     stimuli:
+      Hidden_Reference: configs/resources/sound2serum/pluck/reference.wav
       Anchor_300Hz: configs/resources/sound2serum/pluck/anchor_300hz.wav
       Sound2Serum: configs/resources/sound2serum/pluck/sound2serum.wav
       Synplant2: configs/resources/sound2serum/pluck/synplant2.wav
