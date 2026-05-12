@@ -33,7 +33,6 @@ pages:
     createAnchor35: false
     createAnchor70: false
     stimuli:
-      Hidden_Reference: configs/resources/sound2serum/pluck/reference.wav
       Anchor_300Hz: configs/resources/sound2serum/pluck/anchor_300hz.wav
       Sound2Serum: configs/resources/sound2serum/pluck/sound2serum.wav
       Synplant2: configs/resources/sound2serum/pluck/synplant2.wav
